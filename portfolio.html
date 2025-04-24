@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ntaoleng Mkhumbeni's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Ntaoleng Mkhumbeni Logo" class="logo">
+        <h1>Ntaoleng Mkhumbeni</h1>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="experience">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about me">
+            <h2>About Me</h2>
+            <p>I am Ntaoleng Mkhumbeni, a professional with 5 years of 
+                administrative experience looking to transition into a Web
+                Development role. I aim to use my basic computer skills to
+                build a career as web developer. My Computer literacy certificate
+                made me realize that there is more to computers than just creating
+                and editing documents.
+        </section>
+
+        <section class="experience">
+            <h2>Skills and Experience</h2>
+            <table>
+                <caption>Skills and Experience</caption>
+                <tr>
+                    <th>Skills/Experience</th>
+                    <th>Description</th>
+                    <th>Experience & Period</th>
+                </tr>
+                <tr>
+                    <td>Web developer</td>
+                    <td>Basic knowledge of HTML and CSS</td>
+                    <td>1 year</td>
+                <tr>
+                    <td>Boleng Sure Admin</td>
+                    <td>Sales Agent</td>
+                    <td>March 2014 - January 2017</td>
+                </tr>
+                <tr>
+                    <td>Mr Price Sport</td>
+                    <td>store Assistant</td>
+                    <td>November2017 - November 2023</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="employer">
+            <h2>Employers</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="employer" required>
+              
+                <label for="Email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <section class="opportunity">
+                    <h2>Type of Opportunity</h2>
+                        <input type="radio" id="opportunity" name="Internship" value="Internship">
+                        <label for="internship">Internship</label>
+                        <input type="radio" id="opportunity" name="Job" value="Job">
+                        <label for="job">Job</label>
+                        <input type="radio" id="opportunity" name="Contract" value="Contract">
+                        <label for="Contract">Contract</label>
+                        <input type="radio" id="opportunity" name="Skills" value="Skills">
+                        <label for="Skills">Skills Development</label>
+                </section>
+
+                <section class="interest">
+                    <h2>Area of Interest</h2>
+                        <input type="checkbox" id="web-development" name="web-development" value="Web Development">
+                        <label for="web-development">Web Development (HTML & CSS)</label>
+                        <input type="checkbox" id="administrator" name="Administrator" value="Administrator">
+                        <label for="Administrator">Administrator/label>
+                        <input type="checkbox" id="sales" name="Sales" value="Sales">
+                        <label for="Sales">Sales</label>
+                </section>
+
+                <section class="contact">
+                    <h2>Contact Method</h2>
+                        <select id="contact" name="Contact">
+                            <option value="Select">Select</option>
+                            <option value="Phone">Phone</option>
+                            <option value="Email">Email</option>
+                            <option value="WhatsApp">WhatsApp</option>
+                        </select>
+            </section>
+
+            <section class="message">
+                <h2>Message</h2>
+                <input type="text" name="message" id="message">
+
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <p>Phone: <a href="tel:+27 60 381 5555">&#9742; +27 60 381 5555</a></p>
+            <p>Email: <a href="mailto:botlebaafrika5@gmail.com">&#9993;botlebaafrika5@gmail.com</a></p>
+        </section>
+    </footer>
+</body>
+</html>
